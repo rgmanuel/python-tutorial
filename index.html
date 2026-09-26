@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Python Tutorial</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Python Tutorial</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#intro">Introduction</a>
+            <a href="#variables">Variables</a>
+            <a href="#conditions">Conditions</a>
+            <a href="#loops">Loops</a>
+            <a href="#functions">Functions</a>
+            <a href="#compiler">Compiler</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Home -->
+        <section id="home" class="home">
+            <h2>Learn Python Programming</h2>
+
+            <p>
+                This page is a simple introduction to Python programming.
+                It contains some basic examples that can help beginners
+                understand how Python works.
+            </p>
+
+            <a href="#intro" class="button">Start Tutorial</a>
+        </section>
+
+
+        <!-- Introduction -->
+        <section id="intro" class="section">
+
+            <h2>1. Introduction to Python</h2>
+
+            <p>
+                Python is a programming language that is known for having
+                simple and easy-to-read syntax. It is used for different
+                types of projects such as websites, automation, data
+                analysis, and software development.
+            </p>
+
+            <p>
+                Python is also commonly used when learning programming
+                because its basic code is easy to understand.
+            </p>
+
+        </section>
+
+
+        <!-- Hello World -->
+        <section class="section">
+
+            <h2>2. Your First Python Program</h2>
+
+            <p>
+                One of the first things beginners learn is how to display
+                text using the <strong>print()</strong> function.
+            </p>
+
+            <div class="code">
+                <pre>print("Hello, World!")</pre>
+            </div>
+
+            <p>
+                The text inside the quotation marks will be displayed
+                when the program runs.
+            </p>
+
+        </section>
+
+
+        <!-- Variables -->
+        <section id="variables" class="section">
+
+            <h2>3. Variables</h2>
+
+            <p>
+                Variables are used to store information. A variable can
+                contain text, numbers, or other types of data.
+            </p>
+
+            <div class="code">
+                <pre>name = "Gabriel"
+age = 20
+
+print(name)
+print(age)</pre>
+            </div>
+
+            <p>
+                In this example, the variable <strong>name</strong>
+                contains text while <strong>age</strong> contains a number.
+            </p>
+
+        </section>
+
+
+        <!-- Data Types -->
+        <section class="section">
+
+            <h2>4. Basic Data Types</h2>
+
+            <p>
+                Python has different types of data. Some basic examples
+                are shown below.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Data Type</th>
+                    <th>Example</th>
+                    <th>Use</th>
+                </tr>
+
+                <tr>
+                    <td>String</td>
+                    <td>"Hello"</td>
+                    <td>Text</td>
+                </tr>
+
+                <tr>
+                    <td>Integer</td>
+                    <td>20</td>
+                    <td>Whole numbers</td>
+                </tr>
+
+                <tr>
+                    <td>Float</td>
+                    <td>10.5</td>
+                    <td>Decimal numbers</td>
+                </tr>
+
+                <tr>
+                    <td>Boolean</td>
+                    <td>True</td>
+                    <td>True or False</td>
+                </tr>
+            </table>
+
+        </section>
+
+
+        <!-- Operators -->
+        <section class="section">
+
+            <h2>5. Basic Operators</h2>
+
+            <p>
+                Operators are used to perform calculations and other
+                operations.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Operator</th>
+                    <th>Meaning</th>
+                    <th>Example</th>
+                </tr>
+
+                <tr>
+                    <td>+</td>
+                    <td>Addition</td>
+                    <td>5 + 2</td>
+                </tr>
+
+                <tr>
+                    <td>-</td>
+                    <td>Subtraction</td>
+                    <td>5 - 2</td>
+                </tr>
+
+                <tr>
+                    <td>*</td>
+                    <td>Multiplication</td>
+                    <td>5 * 2</td>
+                </tr>
+
+                <tr>
+                    <td>/</td>
+                    <td>Division</td>
+                    <td>5 / 2</td>
+                </tr>
+            </table>
+
+        </section>
+
+
+        <!-- Conditions -->
+        <section id="conditions" class="section">
+
+            <h2>6. If and Else Statements</h2>
+
+            <p>
+                An if statement is used when a program needs to make
+                a decision. The else statement can be used when the
+                condition is not true.
+            </p>
+
+            <div class="code">
+                <pre>age = 18
+
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")</pre>
+            </div>
+
+        </section>
+
+
+        <!-- Loops -->
+        <section id="loops" class="section">
+
+            <h2>7. Loops</h2>
+
+            <p>
+                A loop is used when we want to repeat a piece of code.
+                A simple example is a for loop.
+            </p>
+
+            <div class="code">
+                <pre>for number in range(5):
+    print(number)</pre>
+            </div>
+
+            <p>
+                This example prints the numbers from 0 to 4.
+            </p>
+
+        </section>
+
+
+        <!-- Functions -->
+        <section id="functions" class="section">
+
+            <h2>8. Functions</h2>
+
+            <p>
+                A function is a block of code that can be reused.
+                Functions are useful when the same task needs to be
+                performed more than once.
+            </p>
+
+            <div class="code">
+                <pre>def greet():
+    print("Hello!")
+
+greet()</pre>
+            </div>
+
+            <p>
+                The <strong>def</strong> keyword is used to create a
+                function.
+            </p>
+
+        </section>
+
+
+        <!-- Lists -->
+        <section class="section">
+
+            <h2>9. Lists</h2>
+
+            <p>
+                A list can store multiple values in one variable.
+            </p>
+
+            <div class="code">
+                <pre>fruits = ["Apple", "Banana", "Mango"]
+
+print(fruits[0])</pre>
+            </div>
+
+            <p>
+                Python starts counting list positions from 0, so
+                <strong>fruits[0]</strong> gives the first item.
+            </p>
+
+        </section>
+
+
+        <!-- Compiler -->
+        <section id="compiler" class="section">
+
+            <h2>10. Try Python Online</h2>
+
+            <p>
+                You can try the examples yourself using the online
+                Python compiler below.
+            </p>
+
+            <div class="compiler">
+                <iframe src="https://onlinepy.com/embed/?raw=print('Hello, World!')"
+                    style="width:100%; height:500px; border:0; border-radius:6px;" allow="cross-origin-isolated"
+                    title="Python Online Compiler">
+                </iframe>
+            </div>
+
+        </section>
+
+
+        <!-- Tips -->
+        <section class="section">
+
+            <h2>11. Simple Tips for Beginners</h2>
+
+            <ul class="tips">
+                <li>Practice writing code regularly.</li>
+                <li>Start with small programs.</li>
+                <li>Read error messages carefully.</li>
+                <li>Try changing the examples to see what happens.</li>
+                <li>Do not be afraid of making mistakes while learning.</li>
+            </ul>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Python Tutorial | 2026</p>
+        <p>Created for a programming activity.</p>
+    </footer>
+
+</body>
+
+</html>
